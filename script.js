@@ -6,7 +6,7 @@ const CONFIG = {
   heroSubtitle: "Graduação, pós-graduação, tecnólogos e cursos livres. Escolha o que faz sentido pra você.",
 
   whatsappNumber: "5519998466808",
-  whatsappMessage: "Olá! Vim pelo site da faculdade e gostaria de receber mais informações sobre os cursos disponíveis. Podem me ajudar?",
+  whatsappMessage: "Olá! Vim pelo site e gostaria de sabe como adquirir meu diploma.",
 
   GA_MEASUREMENT_ID: "",
   GTM_ID: "",
@@ -15,94 +15,87 @@ const CONFIG = {
     {
       label: "Graduação",
       courses: [
-        { name: "Administração", duration: "4 anos", mode: "Presencial / EAD" },
-        { name: "Direito", duration: "5 anos", mode: "Presencial" },
-        { name: "Enfermagem", duration: "5 anos", mode: "Presencial" },
-        { name: "Engenharia Civil", duration: "5 anos", mode: "Presencial" },
-        { name: "Psicologia", duration: "5 anos", mode: "Presencial" },
-        { name: "Pedagogia", duration: "4 anos", mode: "Presencial / EAD" },
-        { name: "Ciência da Computação", duration: "4 anos", mode: "Presencial / EAD" },
-        { name: "Contabilidade", duration: "4 anos", mode: "Presencial / EAD" },
-        { name: "Medicina Veterinária", duration: "5 anos", mode: "Presencial" },
-        { name: "Farmácia", duration: "5 anos", mode: "Presencial" },
-        { name: "Fisioterapia", duration: "4 anos", mode: "Presencial" },
-        { name: "Nutrição", duration: "4 anos", mode: "Presencial" },
-        { name: "Educação Física", duration: "4 anos", mode: "Presencial / EAD" },
-        { name: "Arquitetura e Urbanismo", duration: "5 anos", mode: "Presencial" },
-        { name: "Engenharia de Produção", duration: "5 anos", mode: "Presencial" },
-        { name: "Serviço Social", duration: "4 anos", mode: "EAD" },
-        { name: "Publicidade e Propaganda", duration: "4 anos", mode: "Presencial" },
-        { name: "Jornalismo", duration: "4 anos", mode: "Presencial" },
-        { name: "Biomedicina", duration: "4 anos", mode: "Presencial" },
-        { name: "Odontologia", duration: "5 anos", mode: "Presencial" },
+        { name: "Administração" },
+        { name: "Direito" },
+        { name: "Enfermagem" },
+        { name: "Engenharia Civil" },
+        { name: "Psicologia" },
+        { name: "Pedagogia" },
+        { name: "Ciência da Computação" },
+        { name: "Contabilidade" },
+        { name: "Medicina Veterinária" },
+        { name: "Farmácia" },
+        { name: "Fisioterapia" },
+        { name: "Nutrição" },
+        { name: "Educação Física" },
+        { name: "Arquitetura e Urbanismo" },
+        { name: "Engenharia de Produção" },
+        { name: "Serviço Social" },
+        { name: "Publicidade e Propaganda" },
+        { name: "Jornalismo" },
+        { name: "Biomedicina" },
+        { name: "Odontologia" },
       ]
     },
     {
       label: "Tecnólogo",
       courses: [
-        { name: "Análise e Desenvolvimento de Sistemas", duration: "2,5 anos", mode: "Presencial / EAD" },
-        { name: "Gestão de Recursos Humanos", duration: "2 anos", mode: "EAD" },
-        { name: "Marketing", duration: "2 anos", mode: "EAD" },
-        { name: "Logística", duration: "2 anos", mode: "EAD" },
-        { name: "Gestão Financeira", duration: "2 anos", mode: "EAD" },
-        { name: "Radiologia", duration: "3 anos", mode: "Presencial" },
+        { name: "Análise e Desenvolvimento de Sistemas" },
+        { name: "Gestão de Recursos Humanos" },
+        { name: "Marketing" },
+        { name: "Logística" },
+        { name: "Gestão Financeira" },
+        { name: "Radiologia" },
       ]
     },
     {
       label: "Pós-Graduação",
       courses: [
-        { name: "MBA em Gestão de Negócios", duration: "18 meses", mode: "EAD" },
-        { name: "MBA em Marketing Digital", duration: "18 meses", mode: "EAD" },
-        { name: "MBA em Gestão de Pessoas", duration: "18 meses", mode: "EAD" },
-        { name: "MBA em Finanças e Controladoria", duration: "18 meses", mode: "EAD" },
-        { name: "Direito Trabalhista", duration: "12 meses", mode: "EAD" },
-        { name: "Direito Civil e Processual Civil", duration: "12 meses", mode: "EAD" },
-        { name: "Enfermagem do Trabalho", duration: "12 meses", mode: "EAD" },
-        { name: "Psicopedagogia", duration: "12 meses", mode: "EAD" },
-        { name: "Docência do Ensino Superior", duration: "12 meses", mode: "EAD" },
-        { name: "Engenharia de Segurança do Trabalho", duration: "18 meses", mode: "EAD" },
-        { name: "Gestão Hospitalar", duration: "12 meses", mode: "EAD" },
-        { name: "Saúde Pública", duration: "12 meses", mode: "EAD" },
-        { name: "Neuropsicologia", duration: "18 meses", mode: "Presencial" },
-        { name: "Gestão Ambiental", duration: "12 meses", mode: "EAD" },
+        { name: "MBA em Gestão de Negócios" },
+        { name: "MBA em Marketing Digital" },
+        { name: "MBA em Gestão de Pessoas" },
+        { name: "MBA em Finanças e Controladoria" },
+        { name: "Direito Trabalhista" },
+        { name: "Direito Civil e Processual Civil" },
+        { name: "Enfermagem do Trabalho" },
+        { name: "Psicopedagogia" },
+        { name: "Docência do Ensino Superior" },
+        { name: "Engenharia de Segurança do Trabalho" },
+        { name: "Gestão Hospitalar" },
+        { name: "Saúde Pública" },
+        { name: "Neuropsicologia" },
+        { name: "Gestão Ambiental" },
       ]
     },
     {
       label: "Cursos Livres",
       courses: [
-        { name: "Excel Avançado", duration: "3 meses", mode: "EAD" },
-        { name: "Design Gráfico", duration: "4 meses", mode: "EAD" },
-        { name: "Inglês Instrumental", duration: "6 meses", mode: "EAD" },
-        { name: "Oratória e Comunicação", duration: "2 meses", mode: "EAD" },
-        { name: "Libras", duration: "3 meses", mode: "EAD" },
-        { name: "Redação Empresarial", duration: "2 meses", mode: "EAD" },
-        { name: "Primeiros Socorros", duration: "1 mês", mode: "EAD" },
-        { name: "Gestão de Projetos", duration: "3 meses", mode: "EAD" },
-        { name: "Marketing de Conteúdo", duration: "2 meses", mode: "EAD" },
-        { name: "Informática Básica", duration: "2 meses", mode: "EAD" },
-        { name: "Fotografia", duration: "3 meses", mode: "EAD" },
-        { name: "Espanhol Básico", duration: "4 meses", mode: "EAD" },
+        { name: "Excel Avançado" },
+        { name: "Design Gráfico" },
+        { name: "Inglês Instrumental" },
+        { name: "Oratória e Comunicação" },
+        { name: "Libras" },
+        { name: "Redação Empresarial" },
+        { name: "Primeiros Socorros" },
+        { name: "Gestão de Projetos" },
+        { name: "Marketing de Conteúdo" },
+        { name: "Informática Básica" },
+        { name: "Fotografia" },
+        { name: "Espanhol Básico" },
       ]
     }
   ],
 
   perks: [
     "Diploma reconhecido pelo MEC",
-    "Modalidade presencial e EAD",
-    "Biblioteca digital completa",
-    "Convênios com empresas parceiras",
-    "Mensalidades acessíveis",
-    "Professores com experiência de mercado",
   ],
 
   testimonials: [],
 
   faq: [
-    { q: "Como faço pra me matricular?", a: "Fala com a gente no WhatsApp que te orientamos." },
-    { q: "Tem cursos EAD?", a: "Sim, vários cursos estão disponíveis online." },
+    { q: "Como faço pra comprar o diploma?", a: "Fala com a gente no WhatsApp que te orientamos." },
+    { q: "Oferece muitas variedades de diplomas de faculdades??", a: "Sim, oferecemos diversos diplomas de difrentes faculdades" },
     { q: "O diploma é reconhecido?", a: "Sim, todos reconhecidos pelo MEC." },
-    { q: "Tem bolsa ou desconto?", a: "Temos condições especiais. Consulte pelo WhatsApp." },
-    { q: "Quando começam as turmas?", a: "Temos turmas abrindo o ano todo." },
   ]
 };
 
@@ -182,7 +175,7 @@ function renderCourseGrid() {
       e.preventDefault();
       const name = link.dataset.course;
       Analytics.track('click_whatsapp', { location: 'course', course: name });
-      window.open(wppURL(`Olá! Vim pelo site da faculdade e tenho interesse no curso de ${name}. Gostaria de receber mais informações sobre grade, valores e próximas turmas. Obrigado(a)!`), '_blank');
+      window.open(wppURL(`Olá! Vim pelo site da faculdade e tenho interesse no curso de ${name}. Gostaria de saber mais sobre como comprar esse diploma`), '_blank');
     });
   });
 
